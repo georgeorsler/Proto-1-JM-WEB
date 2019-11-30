@@ -6,7 +6,7 @@
     border: 1px solid rgba(103, 56, 81, 0.5);
     margin: 30px;
     float: left;
-    max-height: 14rem;
+    max-height: 12rem;
     max-width: 40%;
     overflow: auto;
 }
