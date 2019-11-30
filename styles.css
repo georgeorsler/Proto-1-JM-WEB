@@ -67,7 +67,7 @@ body {
 .main-footer {
     height: 70px;
     background-color: #22222A;
-    font-weight: bold;
+    font-weight: none;
 }
 
 .social-link img {
@@ -101,4 +101,18 @@ body {
     text-decoration: none;
     font-size: .9rem;
     padding: .75rem 1.5rem;
+}
+
+p {
+    font-size: .8rem;
+    line-height: 1rem;
+    margin: .5rem;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: red    ;
 }
