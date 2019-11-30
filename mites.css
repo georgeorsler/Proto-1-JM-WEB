@@ -1,0 +1,62 @@
+.home-main-section {
+    display: flex; 
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+}   
+
+.home-main-section, .mites-background-image {
+    background-image: url(images/mites2.jpg);
+    flex-grow: 1;
+    max-height: 70vh;
+    max-width: 100%;
+    min-width: 30vh;
+    background-repeat: no-repeat;
+    float: right;
+    display: flex;
+}
+
+
+.home-main-section .img-wrapper {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+    margin-right: -30px;
+    float: right;
+}
+
+.mites-play-card {
+    background-color: #22222A;
+    padding: 5px;  
+    border-radius: 10px;
+    width: 40%;
+    border: 1px solid rgba(103, 56, 81, 0.5);
+    margin-top: 5px;
+    margin: 20px;
+    float: left;
+    max-height: 100rem;
+    max-width: 40%;
+    overflow: auto;
+    flex-direction: column;
+}
+
+
+.mites-play-title {
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    margin-right: auto;
+    color: rgba(247, 0, 132, 0.5);
+    text-align: center;
+    max-width: 100%;
+}
+
+/*     
+    float: left;
+    max-height: 11.5rem;
+    max-width: 40%;
+    overflow: auto;
+    flex-direction: column; */
